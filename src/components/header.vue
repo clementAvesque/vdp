@@ -1,11 +1,11 @@
 <template>
     <nav class="header-nav">
-      <img src="/img/logo.svg" alt="Logo" class="logo w-10 h-10" />
+      <router-link to="/"><img src="../assets/img/logo.svg" alt="Logo" class="logo w-10 h-10" /></router-link>
       <a href="#" class="hover:underline">Accueil</a>
       <a href="#" class="hover:underline">Votre journal</a>
       <a href="#" class="hover:underline">Notre équipe</a>
       <a href="#" class="hover:underline">FAQ</a>
-      <img src="/img/panier.svg" alt="Panier" class="panier w-6 h-6" />
+      <router-link to="/panier"><img src="../assets/img/panier.svg" alt="Panier" class="panier w-6 h-6" /></router-link>
     </nav>
   </template>
   
@@ -18,6 +18,7 @@
   <style scoped>
 
   .header-nav {
+    width: 100vw;
     background-color: #421318;
     display: flex;
     justify-content: center;

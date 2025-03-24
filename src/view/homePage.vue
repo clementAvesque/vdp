@@ -42,7 +42,7 @@ export default {
                 Nous espérons que nos journaux deviendront des souvenirs précieux, aussi personnels et significatifs que
                 ceux que nous avons partagés avec nos grands-parents.
             </p>
-            <img src="/img/hibous_transi.svg" alt="image de décor">
+            <img src="../assets/img/hibous_transi.svg" alt="image de décor">
         </section>
         <section id="personnal">
             <u>
@@ -76,8 +76,18 @@ export default {
                     adaptés aux passions et centres d’intérêt de la personne à qui vous souhaitez offrir ce cadeau.</p>
                 <div class="ViewSlider">
                     <div class="Slider" id="theme">
-                        <img v-for="image in itemsStore.imageNames" :src="`../img/img_theme/${image}`" alt="">
-                    </div>
+                        <img src="../assets/img/art.svg"> 
+                        <img src="../assets/img/celebrite.svg">
+                        <img src="../assets/img/cinéma.svg"> 
+                        <img src="../assets/img/fait_divers.svg">
+                        <img src="../assets/img/gastronomie.svg">
+                        <img src="../assets/img/informatique.svg">  
+                        <img src="../assets/img/mode.svg">
+                        <img src="../assets/img/politique.svg">
+                        <img src="../assets/img/sports.svg">
+                        <img src="../assets/img/voiture.svg">
+                        <img src="../assets/img/voyager.svg">     
+                   </div>
                 </div>
             </div>
             <div class="box">
@@ -152,7 +162,7 @@ export default {
     /* Masque la barre de défilement */
 }
 
-/* Compatibilité avec les autres navigateurs */
+
 .Slider {
     -ms-overflow-style: none;
     /* Masque la barre de défilement pour Internet Explorer */
